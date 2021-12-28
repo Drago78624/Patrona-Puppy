@@ -1,6 +1,6 @@
 asli content
 navbar k options or dropdown
-motto
+motto (asli content)
 slider
 footer links (asli content)
 faq accordion
