@@ -99,7 +99,6 @@ main .additional {
   padding: 3rem;
   border-radius: 50px;
   max-width: 1250px;
-  display: none;
   box-shadow: 2px 2px 10px #747272;
 }
 @media (max-width: 600px) {
