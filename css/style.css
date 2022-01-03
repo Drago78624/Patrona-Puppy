@@ -539,7 +539,7 @@ body {
 }
 .about-us .about-us__container img {
   height: auto;
-  width: 600px;
+  width: 500px;
   max-width: 100%;
 }
 @media screen and (max-width: 1220px) {
@@ -771,14 +771,15 @@ body {
 }
 .blog-imgs-text-section .blog-imgs-text__container img:last-child {
   box-shadow: 5px 5px 10px #747272;
+  width: 500px;
 }
 .blog-imgs-text-section .blog-imgs-text__container img {
   height: auto;
-  width: 500px;
   max-width: 100%;
 }
 .blog-imgs-text-section .blog-imgs-text__container img:not(:last-child) {
   box-shadow: -5px 5px 10px #4d4c4c;
+  width: 600px;
 }
 @media screen and (max-width: 1220px) {
   .blog-imgs-text-section .blog-imgs-text__container img {

@@ -22,7 +22,7 @@
 
     img {
       height: auto;
-      width: 600px;
+      width: 500px;
       max-width: 100%;
 
       @media screen and (max-width: 1220px) {
@@ -278,17 +278,19 @@
 
     img:last-child {
       box-shadow: 5px 5px 10px $color-light-gray;
+      width: 500px;
     }
 
     img {
       height: auto;
-      width: 500px;
       max-width: 100%;
 
 
 
       &:not(:last-child) {
         box-shadow: -5px 5px 10px $color-dark-gray;
+      width: 600px;
+
       }
 
       @media screen and (max-width: 1220px) {

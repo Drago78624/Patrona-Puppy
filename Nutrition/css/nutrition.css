@@ -125,7 +125,7 @@ main .additional h3 {
   font-family: "Fredoka One", sans-serif;
   font-size: 3rem;
   margin: 3rem auto;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 @media (max-width: 335px) {
   main .additional h3 {
