@@ -8,7 +8,13 @@
   .text {
     font-size: 3rem;
     font-weight: 600;
-    color: $color-dark-orange;
+    color: transparent;
+    background-image: linear-gradient(
+          to right,
+          rgb(249, 87, 0),
+          rgb(248, 129, 65)
+        );
+        -webkit-background-clip: text;
     margin-bottom: 2rem;
     animation: moveInBottom 1s ease-out 0.5s;
     animation-fill-mode: backwards;
