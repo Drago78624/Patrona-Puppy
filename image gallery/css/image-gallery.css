@@ -366,6 +366,23 @@ body {
   background-image: linear-gradient(to right, #f95700, #f88141);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  scrollbar-width: thin !important;
+  border-radius: 40px;
+  background-image: linear-gradient(to left bottom, #f95700, #f88141);
+}
+
+::-webkit-scrollbar-track {
+  scrollbar-width: thin !important;
+  margin-block: 0.5em;
+}
+
 .container {
   display: flex;
   flex-direction: column;
