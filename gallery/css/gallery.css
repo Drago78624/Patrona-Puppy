@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+span {
+  color: #f95700ff;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  scrollbar-width: thin !important;
+  border-radius: 40px;
+  background-image: linear-gradient(to left bottom, #f95700, #f88141);
+}
+
+::-webkit-scrollbar-track {
+  scrollbar-width: thin !important;
+  margin-block: 0.5em;
+}
+
+main {
+  width: 100%;
+  padding: 8rem 0;
+}
+main .filter-gallery-container {
+  margin: 0 auto;
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  main .filter-gallery-container {
+    display: block;
+  }
+}
+main .filter-gallery-container .filter-container {
+  width: 22%;
+}
+@media (max-width: 768px) {
+  main .filter-gallery-container .filter-container {
+    width: 95%;
+    margin: 0 auto 2rem auto !important;
+  }
+}
+@media (max-width: 1220px) {
+  main .filter-gallery-container .filter-container {
+    margin-left: 1rem;
+  }
+}
+main .filter-gallery-container .filter-container h1 {
+  background-color: #181818;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #fff;
+}
+@media (max-width: 1220px) {
+  main .filter-gallery-container .filter-container h1 {
+    font-size: 1.8rem;
+  }
+}
+main .filter-gallery-container .filter-container .category h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  background-image: linear-gradient(to right, #f95700, #f88141);
+  color: white;
+}
+@media (max-width: 1220px) {
+  main .filter-gallery-container .filter-container .category h2 {
+    font-size: 1.5rem;
+  }
+}
+main .filter-gallery-container .filter-container .category .category-item {
+  background-color: #F0f0f0;
+  padding: 1rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1220px) {
+  main .filter-gallery-container .filter-container .category .category-item {
+    font-size: 1.5rem;
+  }
+}
+main .filter-gallery-container .filter-container .category .category-item label {
+  margin-left: 1rem;
+}
+main .filter-gallery-container .filter-container .category .category-item input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  border: 1px solid gray;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .filter-gallery-container .filter-container .category .category-item input[type=checkbox]::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  font-size: 15px;
+  color: white;
+  display: none;
+}
+main .filter-gallery-container .filter-container .category .category-item input[type=checkbox]:hover {
+  background-color: gray;
+}
+main .filter-gallery-container .filter-container .category .category-item input[type=checkbox]:checked {
+  border: 0;
+  background-image: linear-gradient(to right, #f95700, #f88141);
+}
+main .filter-gallery-container .filter-container .category .category-item input[type=checkbox]:checked::after {
+  display: block;
+}
+main .filter-gallery-container .gallery-container {
+  width: 75%;
+  height: 500px;
+  background-color: gray;
+}
+@media (max-width: 768px) {
+  main .filter-gallery-container .gallery-container {
+    width: 95%;
+    margin: 0 auto !important;
+  }
+}
+@media (max-width: 1220px) {
+  main .filter-gallery-container .gallery-container {
+    margin-right: 1rem;
+  }
+}
+
+/*# sourceMappingURL=gallery.css.map */
