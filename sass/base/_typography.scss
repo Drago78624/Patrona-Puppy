@@ -26,7 +26,6 @@
 
   //PRIMARY HEADING
   .primary-heading {
-    font-size: 6rem;
     margin-bottom: 6rem;
     span {
       color: $color-white;
@@ -34,6 +33,7 @@
 
     //PRIMARY HEADING LINE 1
     &__main {
+      font-size: 6rem;
       display: block;
       animation: moveInRight 1s ease-out 0.5s;
       animation-fill-mode: backwards;
@@ -41,6 +41,7 @@
 
     //PRIMARY HEADING LINE 2
     &__sub {
+      font-size: 4rem;
       display: block;
       animation: moveInLeft 1s ease-out 0.5s;
       animation-fill-mode: backwards;
