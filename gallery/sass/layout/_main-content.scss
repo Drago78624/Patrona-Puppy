@@ -21,9 +21,7 @@ main {
         margin: 0 auto 2rem auto !important;
       }
 
-      
-
-    @media (max-width: 1220px) {
+      @media (max-width: 1220px) {
         margin-left: 1rem;
       }
 
@@ -83,7 +81,7 @@ main {
             align-items: center;
 
             &::after {
-              font-family: "Font Awesome 5 Free";
+              font-family: "Font Awesome 5 Pro";
               font-weight: 900;
               content: "\f00c";
               font-size: 15px;
