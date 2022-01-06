@@ -6,7 +6,7 @@
 ## Todo 
 - [ ]  Intersection oberserver 
 - [ ]  On scroll animations
-- [ ]  Custom scroll bar
+- [x]  Custom scroll bar
 - [x] Image Optimization
 - [ ] Lazy loading sections
 - [ ] Functional sliders
