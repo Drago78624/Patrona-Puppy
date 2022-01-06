@@ -100,11 +100,6 @@ body {
     font-size: 2rem;
   }
 }
-@media (max-width: 375px) {
-  .header-text .text {
-    font-size: 1.2rem;
-  }
-}
 .header-text .primary-heading {
   margin-bottom: 6rem;
 }
@@ -124,7 +119,7 @@ body {
 }
 @media (max-width: 375px) {
   .header-text .primary-heading__main {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .header-text .primary-heading__sub {
@@ -140,7 +135,7 @@ body {
 }
 @media (max-width: 375px) {
   .header-text .primary-heading__sub {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 
